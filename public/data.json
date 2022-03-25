@@ -1,0 +1,62 @@
+[
+  {
+    "id": "623dd2adb9e2a94470bab733",
+    "img": "https://www.startech.com.bd/image/cache/catalog/desktop-pc/all-in-one/asus/vivo-aio-v161gart/vivo-aio-v161gart-01-228x228.jpg",
+    "price": 25,
+    "name": "Burton Daniel"
+  },
+  {
+    "id": "623dd2ad56bac655ddceb4b7",
+    "img": "https://www.startech.com.bd/image/cache/catalog/all-in-one-pc/Dell/optiplex-22-3280-core-i5/optiplex-22-3280-core-i5-228x228.jpg",
+    "price": 320,
+    "name": "Teri Snider"
+  },
+  {
+    "id": "623dd2ada350ff558757eb35",
+    "img": "https://www.startech.com.bd/image/cache/catalog/desktop-pc/all-in-one/hp-aio/aio-200-g4-01-228x228.jpg",
+    "price": 362,
+    "name": "Dale Benjamin"
+  },
+  {
+    "id": "623dd2ad089f8d2db1a1973c",
+    "img": "https://www.startech.com.bd/image/cache/catalog/desktop-pc/hp-pc/proone-400-g6/proone-400-g6-10-228x228.jpg",
+    "price": 395,
+    "name": "Etta Pollard"
+  },
+  {
+    "id": "623dd2ad213e4a7214e2ef0e",
+    "img": "https://www.startech.com.bd/image/cache/catalog/all-in-one-pc/Dell/optiplex-22-3280-core-i5/optiplex-22-3280-core-i5-228x228.jpg",
+    "price": 185,
+    "name": "Brittany Benson"
+  },
+  {
+    "id": "623dd2adababd9969de6d01d",
+    "img": "https://www.startech.com.bd/image/cache/catalog/all-in-one-pc/hp-all-in-one-pc/200-g4-22/200-g4-22-0001-228x228.jpg",
+    "price": 68,
+    "name": "Pruitt Conley"
+  },
+  {
+    "id": "623dd2ad4bcdd3670c3ece73",
+    "img": "https://www.startech.com.bd/image/cache/catalog/desktop-pc/asus/optiplex-5490/optiplex-5490-01-228x228.jpg",
+    "price": 66,
+    "name": "Iva Buchanan"
+  },
+  {
+    "id": "623dd2adf860e3d06cdd9434",
+    "img": "https://www.startech.com.bd/image/cache/data/all%20in%20all/Lenovo%20C260%20Intel%20Pentium-228x228.jpg",
+    "price": 317,
+    "name": "Lorie Pacheco"
+  },
+  {
+    "id": "623dd2ad939c121f5e35018c",
+    "img": "https://www.startech.com.bd/image/cache/catalog/desktop-pc/dell/inspiron-22-3280/inspiron-22-3280-1-228x228.jpg",
+    "price": 164,
+    "name": "Diana Burks"
+  },
+  {
+    "id": "623dd2ade577d00dbd31a040",
+    "img": "https://www.startech.com.bd/image/cache/catalog/desktop-pc/dell/aio-3277/dell-aio-3277-3-228x228.jpg",
+    "price": 181,
+    "name": "Imogene James"
+  }
+]
