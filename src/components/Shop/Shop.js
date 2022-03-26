@@ -3,12 +3,12 @@ import Product from '../Product/Product';
 import './Shop.css'
 
 const Shop = () => {
-    const [products, setBooks] = useState([])
+    const [products, setProducts] = useState([])
     const [carts, setCarts] = useState([]);
     useEffect(()=>{
         fetch('data.json')
         .then(res => res.json())
-        .then(data => setBooks(data))
+        .then(data => setProducts(data))
     },[])
 
     const handleAddCart = (product) =>{
@@ -20,6 +20,8 @@ const Shop = () => {
     }
 
     const randomProduct = (carts) =>{
+    
+      setCarts(carts[Math.floor(Math.random() * carts.length)]);
       
     }
     return (
@@ -43,7 +45,7 @@ const Shop = () => {
               </div>
             );
           })}
-          <button onClick={()=>randomProduct(carts)}>Choose 1 for me</button>
+          <button onClick={() => randomProduct(carts)}>Choose 1 for me</button>
           <button onClick={clearAll}>Choose Again</button>
         </div>
       </div>
