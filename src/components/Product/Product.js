@@ -5,7 +5,7 @@ import './Product.css'
 
 const Product = (props) => {
     const {handleAddCart} =props
-    const {id, img, price, name} = props.product;
+    const {img, price, name} = props.product;
     return (
       <div className="product">
         <img src={img} alt="" />

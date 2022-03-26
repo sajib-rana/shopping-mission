@@ -62,7 +62,7 @@ const Shop = () => {
           <button onClick={clearAll}>Choose Again</button>
 
           <div>
-            <h2>{name}</h2>
+            <h4>You should choose - {name}</h4>
           </div>
         </div>
       </div>
