@@ -5,6 +5,9 @@ import './Shop.css'
 const Shop = () => {
     const [products, setProducts] = useState([])
     const [carts, setCarts] = useState([]);
+    const [rand, setRand] = useState([])
+
+
     useEffect(()=>{
         fetch('data.json')
         .then(res => res.json())
@@ -13,7 +16,12 @@ const Shop = () => {
 
     const handleAddCart = (product) =>{
         const newCart = [...carts, product] 
-        setCarts(newCart);
+        
+        if(newCart.length > 4) {
+          alert("You can choose max 4 Items in the cart")
+        } else {
+          setCarts(newCart);
+        }
     }
     const clearAll = () =>{
         setCarts([])
@@ -21,9 +29,14 @@ const Shop = () => {
 
     const randomProduct = (carts) =>{
     
-      setCarts(carts[Math.floor(Math.random() * carts.length)]);
+      let randomCart = carts[Math.floor(Math.random() * carts.length)];
       
+      setRand(randomCart)
+
+      console.log(rand);
     }
+
+    const { name } = rand;
     return (
       <div className="shop-container">
         <div className="product-container">
@@ -47,6 +60,10 @@ const Shop = () => {
           })}
           <button onClick={() => randomProduct(carts)}>Choose 1 for me</button>
           <button onClick={clearAll}>Choose Again</button>
+
+          <div>
+            <h2>{name}</h2>
+          </div>
         </div>
       </div>
     );
