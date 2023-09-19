@@ -1,3 +1,3 @@
 # Monitor Maniacs
 
-View this project in live ``` https:// ```
+View this project in live ```  ```
